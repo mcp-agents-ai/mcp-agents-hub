@@ -1,0 +1,248 @@
+{
+  "nav": {
+    "home": "首頁",
+    "docs": "文件",
+    "about": "關於",
+    "github": "GitHub"
+  },
+  "language": {
+    "english": "English (英文)",
+    "chinese": "簡體(简体)中文",
+    "traditionalchinese": "繁體(繁体)中文",
+    "label": "Language"
+  },
+  "home": {
+    "title": "MCP Agents 中心",
+    "tagline": "MCP 是建構 AI 系統的通用標準",
+    "subtitle": "可以將 MCP 理解為要串接使用 AI 應用時的一種標準規範(就像要裝置要使用 USB-C 時會使用 USB 的 Type-C 傳輸規範)，透過標準規範的規格化，將能讓 AI 模型跟資料來源與工具串接起來。",
+    "feature1": {
+      "title": "簡易串接",
+      "description": "只需要點選幾下就可以連結到 MCP 的伺服器服務"
+    },
+    "feature2": {
+      "title": "高性能",
+      "description": "體驗執行快速可靠的 AI 模型"
+    },
+    "feature3": {
+      "title": "標準開放",
+      "description": "基於開放模型的 Context 所建構的標準規範"
+    },
+    "discover": {
+      "title": "探索 MCP Agents (伺服器服務)",
+      "description": "MCP Agents 生態體系正在飛快的成長茁壯中，探索 MCP Agents 並且開始立即使用，建置你的 AI 系統！"
+    },
+    "search": {
+      "placeholder": "按照名稱、作者、或是標記搜尋 MCP Agents (伺服器服務)...",
+      "button": "搜尋"
+    },
+    "serverCount": "MCP 伺服器服務可用個數",
+    "recommendedServers": "推薦的 MCP 伺服器服務",
+    "otherServers": "其他 MCP 伺服器服務",
+    "loadMore": "讀取更多",
+    "of": "共"
+  },
+  "server": {
+    "by": "作者",
+    "recommended": "推薦",
+    "viewOnGithub": "在 GitHub 上查看"
+  },
+  "details": {
+    "loading": "正在讀取 MCP 伺服器詳細資訊...",
+    "fetchError": "取得 MCP 伺服器服務詳細資訊失敗",
+    "errorLoading": "讀取 MCP 伺服器服務發生錯誤",
+    "serverNotFound": "並未找到相關的 MCP 伺服器服務",
+    "backToServers": "回到 MCP 伺服器服務列表",
+    "description": "描述",
+    "tags": "標記",
+    "serverInfo": "MCP 伺服器服務資訊",
+    "category": "分類",
+    "requiresApiKey": "需要 API 金鑰",
+    "createdAt": "建立時間",
+    "updatedAt": "更新時間",
+    "notSpecified": "未指定",
+    "viewOnGithub": "在 GitHub 上查看"
+  },
+  "common": {
+    "yes": "是",
+    "no": "否"
+  },
+  "footer": {
+    "copyright": "© 2025 MCP 市集，保留著作權所有權利。"
+  },
+  "about": {
+    "hero": {
+      "title": "MCP Agents 中心",
+      "subtitle": "為企業內部創立使用 MCP 在伺服器服務端與 Client 端之間，建構、探索與部署模型的一套完整的開源生態體系。"
+    },
+    "whatIsMcp": {
+      "title": "什麼是 MCP (Model Context Protocol)？",
+      "paragraph1": "MCP (Model Context Protocol) 是一種開放標準，使開發人員能夠將資料來源與 AI 建構的工具之間，建構安全雙向的界接。架構相當簡單：開發人員透過 MCP 伺服器服務把資料端處理為可界接的介面，或建置讓 AI 連接到這些 MCP 伺服器服務的 Client 端應用。",
+      "paragraph2": "透過 MCP 的溝通標準，AI 系统可以在不同工具與資料來源間運作時，保持其資料內容前後的一致性，用更可以保持其持續性的架構取代目前過於分散的處理方式。開發人員現在可以針對標準協議進行建構，而不必為單一的資料來源或 AI 模型建立自定義的連接處理。",
+      "components": {
+        "title": "MCP 的關鍵概念",
+        "specification": {
+          "title": "MCP 規範",
+          "description": "在伺服器服務與 Client 端之間實踐互動的開放標準協定"
+        },
+        "servers": {
+          "title": "MCP 伺服器服務",
+          "description": "將資料來源、工具與 API 公開給 AI 應用的自定義連接處理"
+        },
+        "clients": {
+          "title": "MCP Client 端",
+          "description": "連接 MCP 伺服端服務以利 Context 能被 AI 服務使用"
+        }
+      },
+      "whyMarketplace": {
+        "title": "為什麼需要 MCP 市集？",
+        "description": "伴隨著 MCP 的生態體系成長，需要一個中心去進一步管理、探索與共享 MCP 資源。這個市集就是這樣的匯集處，能使企業能達成：",
+        "benefits": {
+          "discover": "探索與運用常見於企業內部的 MCP 伺服端服務",
+          "share": "共享在企業或組織內所開發的自定義 MCP 伺服端服務",
+          "learn": "學習建構有效的 MCP 服務與確保有最佳實踐做法",
+          "deploy": "在本地端部署時確保相對的安全性與治理"
+        }
+      }
+    },
+    "features": {
+      "title": "您企業的 MCP 中心",
+      "description": "這個開源市集允許企業部署自己的 MCP 中心，讓企業內部能擁有一個探索、共享、與管理統一的 MCP 伺服器服務和 Clent 端應用的中心。",
+      "serverBuilding": {
+        "title": "伺服端服務建置",
+        "description": "學習創建自定義的 MCP 伺服端服務，安全且有效的連接企業資料到 AI 模型中。此 MCP 市集更提供範本、展示與最佳實踐，讓伺服端服務應用的開發加速。"
+      },
+      "clientDevelopment": {
+        "title": "Client 端開發",
+        "description": "透過 MCP 的介面標準化來開發 AI 應用，更能整合企業組織內的前後的各種資料與資訊，也完成連結到到任何有著 MCP 規範的伺服端服務。"
+      },
+      "toolDiscovery": {
+        "title": "工具探索",
+        "description": "替當前常用的企業系統與工具(如：Google Drive、Slack、GitHub、Git、Postgres、Puppeteer...等)，找到已有的的 MCP 服務器，並直接在企業組織中部署使用。"
+      }
+    },
+    "showcase": {
+      "title": "賦予企業 AI 整合",
+      "description": "早期的採用者已經將 MCP 整合到所使用的系統當中，而開發工具公司正進一步使用 MCP 來合作增強他們的應用 - 使 AI Agent 能夠更有效的檢索資訊，而使得用更少的嘗試產生更多功能性成果。",
+      "quote": {
+        "text": "\"MCP 這樣的開發技術是 AI 與現今已大量運用的應用程式與服務的銜接橋樑，確保透過此以確保創新過程中的可用性、透明性以及互動的一致性，我們很高興能夠透過使用 MCP 並建置到系統中完成代理作業，這樣一來就更能減少重複且固定性的工作，讓人們能夠更專注於更多的創造性工作。\"",
+        "author": "Dhanji R. Prasanna",
+        "position": "Block 首席技術官"
+      },
+      "forOrganizations": {
+        "title": "面向組織",
+        "benefits": {
+          "deploy": "本地部署以增强安全性和合規性",
+          "connect": "將既有的內部工具與資料界接到 AI 系統中",
+          "build": "替專有的系統建立自定義的連結工具",
+          "maintain": "保有對 AI 探索機敏資料時控制性"
+        }
+      },
+      "forDevelopers": {
+        "title": "面向開發人員",
+        "benefits": {
+          "enhance": "透過 MCP 開發的應用將讓 AI 前後感知力強化",
+          "buildOnce": "建構一次連結到多個 AI 服務的 Client 端",
+          "contribute": "為 MCP 生態系的成長貢獻與茁壯",
+          "create": "為開發工作流程建構專屬的連接工具"
+        }
+      }
+    },
+    "enterprise": {
+      "title": "企業級應用準備",
+      "description": "在您自己的本地端部署此市集，為 MCP 工具與資源建構一個安全的內部中心。這將能讓組織內的的開發人員：",
+      "benefits": {
+        "share": "在團隊之間共享內部所開發的 MCP 服務器",
+        "discover": "探索並部署適合企業內部的系統所需的連結",
+        "maintain": "維護整合 AI 的治理與資安勳球",
+        "foster": "促進資料擁有者與 AI 應用的開發人員有更完善的互動合作"
+      },
+      "onPremise": {
+        "title": "本地部署解决方案",
+        "description": "可以完全在本地端的既有基礎設施中部署"
+      }
+    },
+    "community": {
+      "title": "開放的社群",
+      "description": "我們致力於將 MCP 建構成一個開源為本的賦予互助共享生態系統。無論是 AI 的開發人員、希望利用現有資料的企業，更甚至是技術前源的探索者，我們都歡迎一起來建構具有前後連貫與一致性的 AI 探索工具。",
+      "joinCommunity": "加入社群",
+      "deploymentGuide": "部署指引"
+    }
+  },
+  "docs": {
+    "hero": {
+      "title": "MCP 入門指引",
+      "subtitle": "立即透過說明文件與工具開始建構與測試 MCP 連接器。"
+    },
+    "availability": {
+      "title": "可用性",
+      "paragraph1": "MCP 主要是提供在各種 AI 模型和 Client 端應用中相容與通用，不會只受限於單一的個別服務供應商。",
+      "paragraph2": "多種 Client 端應用支援連接到 MCP 服務，將能透過訪問自定義的資料、工具和系统來強化使用 AI 的功能。透過 MCP 將內部的系統與資料整合與匯集到相容的 AI 服務中。",
+      "paragraph3": "開發人員可以在本地建置與測試 MCP 服務，或是可以部屬到為整個組織提供服務的 MCP 應用。而整個 MCP 開放協議支援各種 AI 平台與應用端的整合。"
+    },
+    "startUsing": {
+      "title": "開始使用",
+      "subtitle": "對於 AI 的終端使用者客群：如果想透過自定義的工具與資料來源透過 AI 強化的體驗，請談訪這些 MCP 相容的 Client 端使用。",
+      "claudeDesktop": {
+        "title": "Claude Desktop",
+        "description": "直接從 Claude Desktop 連接到 MCP 服務器。支援使用本地和遠端的 MCP 服務器。",
+        "learnMore": "了解更多 →"
+      },
+      "vsCodeExtension": {
+        "title": "VS Code Extension",
+        "description": "直接從 VS Code 連接到 MCP 服務器，以增強相關的開發體驗與 Coding 時的輔助功能。",
+        "learnMore": "了解更多 →"
+      },
+      "jetbrainsPlugin": {
+        "title": "JetBrains IDE Plugin",
+        "description": "在 JetBrains IDE（如 IntelliJ、PyCharm 等）中使用 MCP 服务器，以增強相關的開發體驗與 Coding 時的輔助功能。",
+        "learnMore": "了解更多 →"
+      }
+    },
+    "startBuilding": {
+      "title": "開始建構",
+      "subtitle": "面對開發者：選擇與你預期的目標相符開發路徑 - 建構 MCP 服務器以拓展 AI 功能或將 MCP 整合到你的 Client 端應用中。",
+      "serverDevelopers": {
+        "title": "面向服務器開發者",
+        "customServers": {
+          "title": "建置自定義服務器",
+          "description": "創立連接你的資料來源、工具和 API 到 MCP 相容 AI 模型的伺服端服務。",
+          "learnMore": "了解更多 →"
+        },
+        "serverSDK": {
+          "title": "服務器 SDK",
+          "description": "使用 SDK 實踐 MCP 規範並且建置連接到各種 Client 端的伺服端應用。",
+          "learnMore": "了解更多 →"
+        },
+        "serverTemplates": {
+          "title": "服務器範本",
+          "description": "從預先建立的範本開始，適合運用在常見案例，如文件搜尋、資料庫連接和工具使用。",
+          "learnMore": "了解更多 →"
+        }
+      },
+      "clientDevelopers": {
+        "title": "面向 Client 端開發者",
+        "clientSDK": {
+          "title": "Client 端 SDK",
+          "description": "在您的 AI 應用中實現 MCP，以利與各種 MCP 伺服端服務或工具進行串接。",
+          "learnMore": "了解更多 →"
+        },
+        "integrationGuide": {
+          "title": "整合指南",
+          "description": "了解如何將 MCP 連接整合到使用到 AI 所驅動的各種應用、平台和介面中。",
+          "learnMore": "了解更多 →"
+        },
+        "contribute": {
+          "title": "貢獻",
+          "description": "加入我們的開源社群，為改進 MCP Client 端做出更多有別出心裁的創舉與實踐。",
+          "learnMore": "了解更多 →"
+        }
+      }
+    },
+    "cta": {
+      "title": "準備好開始了嗎？",
+      "subtitle": "加入我們不斷成長的開發社群，共同發展 MCP Agents 中心的各種 AI 未來。",
+      "readDocs": "閱讀文件",
+      "viewOnGithub": "在 GitHub 上查看"
+    }
+  }
+}

@@ -7,7 +7,10 @@
   },
   "language": {
     "english": "English",
-    "chinese": "中文 (Chinese)",
+    "chinese": "簡體中文 (CN)",
+    "traditionalchinese": "繁體中文 (TC)",
+    "japanese": "日本語 (JP)",
+    "spanish": "Español",
     "label": "Language"
   },
   "home": {

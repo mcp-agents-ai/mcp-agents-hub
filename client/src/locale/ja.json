@@ -1,0 +1,249 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "docs": "ドキュメント",
+    "about": "概要",
+    "github": "GitHub"
+  },
+  "language": {
+    "english": "English",
+    "chinese": "簡体中文 (CN)",
+    "traditionalchinese": "繁體中文 (TC)",
+    "japanese": "日本語",
+    "label": "言語"
+  },
+  "home": {
+    "title": "MCP Agents Hub",
+    "tagline": "AI統合のための汎用標準",
+    "subtitle": "MCPはAIアプリケーション用のUSB-Cのようなもの - AIモデルとあらゆるデータソースやツールを接続する標準化された方法です。",
+    "feature1": {
+      "title": "簡単な接続",
+      "description": "数回のクリックでMCPサーバーに接続"
+    },
+    "feature2": {
+      "title": "高性能",
+      "description": "高速で信頼性の高いAIモデル実行を体験"
+    },
+    "feature3": {
+      "title": "オープンスタンダード",
+      "description": "オープンなModel Context Protocolに基づいて構築"
+    },
+    "discover": {
+      "title": "MCPサーバーを発見",
+      "description": "成長するMCPサーバーのエコシステムを閲覧して接続"
+    },
+    "search": {
+      "placeholder": "名前、作者、タグでMCPサーバーを検索...",
+      "button": "検索"
+    },
+    "serverCount": "利用可能なMCPサーバー",
+    "recommendedServers": "おすすめサーバー",
+    "otherServers": "その他のサーバー",
+    "loadMore": "もっと読み込む",
+    "of": "/"
+  },
+  "server": {
+    "by": "制作者：",
+    "recommended": "おすすめ",
+    "viewOnGithub": "GitHubで見る"
+  },
+  "details": {
+    "loading": "サーバー詳細を読み込み中...",
+    "fetchError": "サーバー詳細の取得に失敗しました",
+    "errorLoading": "サーバーデータの読み込みエラー",
+    "serverNotFound": "サーバーが見つかりません",
+    "backToServers": "サーバー一覧に戻る",
+    "description": "説明",
+    "tags": "タグ",
+    "serverInfo": "サーバー情報",
+    "category": "カテゴリー",
+    "requiresApiKey": "APIキーが必要",
+    "createdAt": "作成日時",
+    "updatedAt": "更新日時",
+    "notSpecified": "指定なし",
+    "viewOnGithub": "GitHubで見る"
+  },
+  "common": {
+    "yes": "はい",
+    "no": "いいえ"
+  },
+  "footer": {
+    "copyright": "© 2025 MCP Marketplace. All rights reserved."
+  },
+  "about": {
+    "hero": {
+      "title": "MCP Agents Hub",
+      "subtitle": "エンタープライズ環境向けのModel Context Protocolサーバーとクライアントの構築、発見、展開のためのオープンソースエコシステム。"
+    },
+    "whatIsMcp": {
+      "title": "Model Context Protocolとは？",
+      "paragraph1": "Model Context Protocol（MCP）は、開発者がデータソースとAIパワードツールの間に安全な双方向接続を構築できるようにするオープンスタンダードです。アーキテクチャはシンプルで、開発者はMCPサーバーを通じてデータを公開するか、これらのサーバーに接続するAIアプリケーション（MCPクライアント）を構築することができます。",
+      "paragraph2": "MCPにより、AIシステムは異なるツールやデータセット間を移動する際にコンテキストを維持でき、現在の断片化された統合をより持続可能なアーキテクチャに置き換えます。各データソースやAIモデル向けにカスタムコネクタを構築する代わりに、開発者は標準プロトコルに対して構築できるようになりました。",
+      "components": {
+        "title": "MCPの主要コンポーネント",
+        "specification": {
+          "title": "MCP仕様",
+          "description": "サーバーとクライアント間の相互運用性を可能にするオープンスタンダードプロトコル定義"
+        },
+        "servers": {
+          "title": "MCPサーバー",
+          "description": "データソース、ツール、APIをAIアプリケーションに公開するカスタム構築コネクタ"
+        },
+        "clients": {
+          "title": "MCPクライアント",
+          "description": "コンテキストデータと機能にアクセスするためにMCPサーバーに接続するAIパワードアプリケーション"
+        }
+      },
+      "whyMarketplace": {
+        "title": "なぜMCPマーケットプレイス？",
+        "description": "MCPエコシステムが拡大するにつれて、組織はMCPリソースを管理、発見、共有するための中央ハブを必要としています。このマーケットプレイスはそのハブとして機能し、企業に以下を可能にします：",
+        "benefits": {
+          "discover": "一般的なエンタープライズシステム用の既製MCPサーバーを発見する",
+          "share": "組織内で開発されたカスタムMCPサーバーを共有する",
+          "learn": "効果的なMCPコネクタを構築するためのベストプラクティスを学ぶ",
+          "deploy": "セキュリティとガバナンスのためにオンプレミスでマーケットプレイス全体を展開する"
+        }
+      }
+    },
+    "features": {
+      "title": "あなたのエンタープライズMCPハブ",
+      "description": "このオープンソースマーケットプレイスにより、組織は独自のオンプレミスMCPハブを展開し、エンタープライズ環境内でMCPサーバーとクライアントを発見、共有、管理するための中央リポジトリを作成できます。",
+      "serverBuilding": {
+        "title": "サーバー構築",
+        "description": "エンタープライズデータソースをAIモデルに安全かつ効率的に接続するカスタムMCPサーバーの作成方法を学びましょう。マーケットプレイスでは、サーバー開発を加速するためのテンプレート、例、ベストプラクティスを提供します。"
+      },
+      "clientDevelopment": {
+        "title": "クライアント開発",
+        "description": "組織全体のコンテキストデータにアクセスするためにMCPプロトコルを活用するAIアプリケーションを構築します。標準化されたインターフェースで任意のMCPサーバーにアプリを接続します。"
+      },
+      "toolDiscovery": {
+        "title": "ツール発見",
+        "description": "Google Drive、Slack、GitHub、Git、Postgres、Puppeteerなどの人気のあるエンタープライズシステム用の既製MCPサーバーを見つけます。組織内で即座に展開できます。"
+      }
+    },
+    "showcase": {
+      "title": "エンタープライズAI統合の強化",
+      "description": "初期の採用者はすでにMCPをシステムに統合しており、開発ツール企業はプラットフォームを強化するためにMCPと連携しています—AIエージェントが関連情報をより適切に取得し、少ない試行でより機能的な結果を生成できるようにします。",
+      "quote": {
+        "text": "「Model Context Protocolのようなオープン技術は、AIを実世界のアプリケーションに接続する架け橋であり、イノベーションがアクセス可能で透明性があり、コラボレーションに根ざしていることを保証します。私たちはプロトコルでパートナーシップを結び、それを使用してエージェントシステムを構築することに興奮しています。これにより、人々は創造的なことに集中できるように機械的な負担を取り除きます。」",
+        "author": "Dhanji R. Prasanna",
+        "position": "Block最高技術責任者"
+      },
+      "forOrganizations": {
+        "title": "組織向け",
+        "benefits": {
+          "deploy": "セキュリティとコンプライアンス強化のためのオンプレミス展開",
+          "connect": "内部ツールとデータをAIシステムに接続",
+          "build": "独自システム用のカスタムコネクタを構築",
+          "maintain": "機密データへのAIアクセスの制御を維持"
+        }
+      },
+      "forDevelopers": {
+        "title": "開発チーム向け",
+        "benefits": {
+          "enhance": "AIコンテキスト認識で開発ツールを強化",
+          "buildOnce": "一度構築し、複数のAIクライアントに接続",
+          "contribute": "オープンソースMCPエコシステムに貢献",
+          "create": "開発ワークフロー用の専門コネクタを作成"
+        }
+      }
+    },
+    "enterprise": {
+      "title": "エンタープライズレディな展開",
+      "description": "このマーケットプレイスを独自のオンプレミス環境に展開し、MCPツールとリソースのための安全な内部ハブを作成します。組織の開発者が次のことを行えるようにします：",
+      "benefits": {
+        "share": "チーム間で内部開発されたMCPサーバーを共有",
+        "discover": "エンタープライズシステム用の既製コネクタを発見して展開",
+        "maintain": "AI統合のためのガバナンスとセキュリティ要件を維持",
+        "foster": "データ所有者とAIアプリケーション開発者間のコラボレーションを促進"
+      },
+      "onPremise": {
+        "title": "オンプレミスソリューション",
+        "description": "既存のインフラストラクチャ内に完全に展開可能"
+      }
+    },
+    "community": {
+      "title": "オープンコミュニティ",
+      "description": "私たちはMCPを協力的なオープンソースプロジェクトおよびエコシステムとして構築することに取り組んでいます。あなたがAIツール開発者であれ、既存のデータを活用しようとするエンタープライズであれ、フロンティアを探索する初期採用者であれ、コンテキスト認識AIの未来を一緒に構築することを招待します。",
+      "joinCommunity": "コミュニティに参加",
+      "deploymentGuide": "展開ガイド"
+    }
+  },
+  "docs": {
+    "hero": {
+      "title": "MCPの使い方",
+      "subtitle": "包括的なドキュメントとツールを使用して、今日からMCPコネクタの構築とテストを開始しましょう。"
+    },
+    "availability": {
+      "title": "利用可能性",
+      "paragraph1": "Model Context Protocol（MCP）は、単一のプロバイダーに限定されず、さまざまなAIモデルとクライアントアプリケーションと普遍的に互換性があるように設計されています。",
+      "paragraph2": "複数のクライアントアプリケーションがMCPサーバーへの接続をサポートしており、カスタムデータ、ツール、システムへのアクセスでAI機能を強化できます。MCPを使用して、内部システムとデータセットを互換性のあるAIクライアントに接続できます。",
+      "paragraph3": "開発者はMCPサーバーをローカルで構築およびテストし、組織全体に対応する本番用MCPサーバーを展開できます。オープンプロトコルにより、さまざまなAIプラットフォームやアプリケーションとの統合が可能になります。"
+    },
+    "startUsing": {
+      "title": "使い始める",
+      "subtitle": "エンドユーザーとAIアプリケーションユーザー向け：カスタムツールとデータソースでAIエクスペリエンスを強化したい場合は、これらのMCP互換クライアントを探索してください。",
+      "claudeDesktop": {
+        "title": "Claude Desktop",
+        "description": "Claude Desktopアプリから直接MCPサーバーに接続します。ローカルおよびリモートのMCPサーバーの両方をサポートします。",
+        "learnMore": "詳細を見る →"
+      },
+      "vsCodeExtension": {
+        "title": "VS Code拡張機能",
+        "description": "コーディング支援を強化するために、VS Code環境から直接MCPサーバーに接続します。",
+        "learnMore": "詳細を見る →"
+      },
+      "jetbrainsPlugin": {
+        "title": "JetBrains IDEプラグイン",
+        "description": "IntelliJ、PyCharmなどのJetBrains IDE内でMCPサーバーを使用して、開発エクスペリエンスを向上させます。",
+        "learnMore": "詳細を見る →"
+      }
+    },
+    "startBuilding": {
+      "title": "構築を始める",
+      "subtitle": "開発者向け：目標に合った開発パスを選択 - AI機能を拡張するためのMCPサーバーを構築するか、クライアントアプリケーションにMCPを統合します。",
+      "serverDevelopers": {
+        "title": "サーバー開発者向け",
+        "customServers": {
+          "title": "カスタムサーバーの構築",
+          "description": "データソース、ツール、APIをMCP互換AIモデルに接続するサーバーを作成します。",
+          "learnMore": "詳細を見る →"
+        },
+        "serverSDK": {
+          "title": "サーバーSDK",
+          "description": "SDKを使用してMCP仕様を実装し、さまざまなクライアントアプリケーションに接続するサーバーを構築します。",
+          "learnMore": "詳細を見る →"
+        },
+        "serverTemplates": {
+          "title": "サーバーテンプレート",
+          "description": "ドキュメント取得、データベース接続、ツール使用などの一般的なユースケース向けの既製テンプレートから始めます。",
+          "learnMore": "詳細を見る →"
+        }
+      },
+      "clientDevelopers": {
+        "title": "クライアント開発者向け",
+        "clientSDK": {
+          "title": "クライアントSDK",
+          "description": "AIアプリケーションにMCPを実装して、幅広いMCPサーバーおよびツールとの接続を可能にします。",
+          "learnMore": "詳細を見る →"
+        },
+        "integrationGuide": {
+          "title": "統合ガイド",
+          "description": "AIパワードアプリケーション、プラットフォーム、インターフェースにMCP接続を統合する方法を学びます。",
+          "learnMore": "詳細を見る →"
+        },
+        "contribute": {
+          "title": "貢献する",
+          "description": "オープンソースコミュニティに参加し、MCPクライアントと実装の改善に貢献します。",
+          "learnMore": "詳細を見る →"
+        }
+      }
+    },
+    "cta": {
+      "title": "始める準備はできましたか？",
+      "subtitle": "MCPでAI統合の未来を構築する成長中の開発者コミュニティに参加しましょう。",
+      "readDocs": "ドキュメントを読む",
+      "viewOnGithub": "GitHubで見る"
+    }
+  }
+}

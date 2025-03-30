@@ -7,8 +7,9 @@
   },
   "language": {
     "english": "English (英文)",
-    "chinese": "中文",
-    "label": "语言"
+    "chinese": "简体(簡體)中文",
+    "traditionalchinese": "繁体(繁體)中文",
+    "label": "Language"
   },
   "home": {
     "title": "MCP 智能体中心",

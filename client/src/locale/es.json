@@ -1,0 +1,248 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "docs": "Documentación",
+    "about": "Acerca de",
+    "github": "GitHub"
+  },
+  "language": {
+    "english": "English",
+    "chinese": "簡體中文 (CN)",
+    "traditionalchinese": "繁體中文 (TC)",
+    "label": "Idioma"
+  },
+  "home": {
+    "title": "MCP Agents Hub",
+    "tagline": "El Estándar Universal para la Integración de IA",
+    "subtitle": "Piense en MCP como USB-C para aplicaciones de IA - una forma estandarizada de conectar modelos de IA con cualquier fuente de datos o herramienta.",
+    "feature1": {
+      "title": "Conexión Fácil",
+      "description": "Conéctese a servidores MCP con solo unos clics"
+    },
+    "feature2": {
+      "title": "Alto Rendimiento",
+      "description": "Experimente una ejecución rápida y confiable del modelo de IA"
+    },
+    "feature3": {
+      "title": "Estándar Abierto",
+      "description": "Construido sobre el estándar abierto del Protocolo de Contexto de Modelo"
+    },
+    "discover": {
+      "title": "Descubra Servidores MCP",
+      "description": "Explore y conéctese a un ecosistema creciente de servidores MCP"
+    },
+    "search": {
+      "placeholder": "Buscar servidores MCP por nombre, autor o etiquetas...",
+      "button": "Buscar"
+    },
+    "serverCount": "Servidores MCP disponibles",
+    "recommendedServers": "Servidores Recomendados",
+    "otherServers": "Otros Servidores",
+    "loadMore": "Cargar Más",
+    "of": "de"
+  },
+  "server": {
+    "by": "por",
+    "recommended": "Recomendado",
+    "viewOnGithub": "Ver en GitHub"
+  },
+  "details": {
+    "loading": "Cargando detalles del servidor...",
+    "fetchError": "Error al obtener detalles del servidor",
+    "errorLoading": "Error al cargar datos del servidor",
+    "serverNotFound": "Servidor no encontrado",
+    "backToServers": "Volver a Servidores",
+    "description": "Descripción",
+    "tags": "Etiquetas",
+    "serverInfo": "Información del Servidor",
+    "category": "Categoría",
+    "requiresApiKey": "Requiere Clave API",
+    "createdAt": "Creado El",
+    "updatedAt": "Actualizado El",
+    "notSpecified": "No especificado",
+    "viewOnGithub": "Ver en GitHub"
+  },
+  "common": {
+    "yes": "Sí",
+    "no": "No"
+  },
+  "footer": {
+    "copyright": "© 2025 MCP Marketplace. Todos los derechos reservados."
+  },
+  "about": {
+    "hero": {
+      "title": "MCP Agents Hub",
+      "subtitle": "El ecosistema de código abierto para construir, descubrir e implementar servidores y clientes del Protocolo de Contexto de Modelo para entornos empresariales."
+    },
+    "whatIsMcp": {
+      "title": "¿Qué es el Protocolo de Contexto de Modelo?",
+      "paragraph1": "El Protocolo de Contexto de Modelo (MCP) es un estándar abierto que permite a los desarrolladores construir conexiones seguras bidireccionales entre sus fuentes de datos y herramientas impulsadas por IA. La arquitectura es sencilla: los desarrolladores pueden exponer sus datos a través de servidores MCP o construir aplicaciones de IA (clientes MCP) que se conecten a estos servidores.",
+      "paragraph2": "Con MCP, los sistemas de IA pueden mantener el contexto mientras se mueven entre diferentes herramientas y conjuntos de datos, reemplazando las integraciones fragmentadas actuales con una arquitectura más sostenible. En lugar de crear conectores personalizados para cada fuente de datos o modelo de IA, los desarrolladores ahora pueden construir contra un protocolo estándar.",
+      "components": {
+        "title": "Componentes Clave de MCP",
+        "specification": {
+          "title": "Especificación MCP",
+          "description": "La definición del protocolo estándar abierto que permite la interoperabilidad entre servidores y clientes"
+        },
+        "servers": {
+          "title": "Servidores MCP",
+          "description": "Conectores personalizados que exponen fuentes de datos, herramientas y APIs a aplicaciones de IA"
+        },
+        "clients": {
+          "title": "Clientes MCP",
+          "description": "Aplicaciones impulsadas por IA que se conectan a servidores MCP para acceder a datos contextuales y funcionalidades"
+        }
+      },
+      "whyMarketplace": {
+        "title": "¿Por Qué MCP Marketplace?",
+        "description": "A medida que el ecosistema MCP se expande, las organizaciones necesitan un centro para gestionar, descubrir y compartir recursos MCP. Este marketplace sirve como ese centro, permitiendo a las empresas:",
+        "benefits": {
+          "discover": "Descubrir servidores MCP pre-construidos para sistemas empresariales comunes",
+          "share": "Compartir servidores MCP personalizados desarrollados dentro de su organización",
+          "learn": "Aprender mejores prácticas para construir conectores MCP efectivos",
+          "deploy": "Implementar todo el marketplace en local para seguridad y gobernanza"
+        }
+      }
+    },
+    "features": {
+      "title": "Su Hub MCP Empresarial",
+      "description": "Este marketplace de código abierto permite a las organizaciones implementar su propio hub MCP local, creando un repositorio central para descubrir, compartir y gestionar servidores y clientes MCP dentro de su entorno empresarial.",
+      "serverBuilding": {
+        "title": "Creación de Servidores",
+        "description": "Aprenda a crear servidores MCP personalizados que conecten fuentes de datos empresariales a modelos de IA de forma segura y eficiente. Nuestro marketplace proporciona plantillas, ejemplos y mejores prácticas para acelerar el desarrollo de servidores."
+      },
+      "clientDevelopment": {
+        "title": "Desarrollo de Clientes",
+        "description": "Construya aplicaciones de IA que aprovechen el protocolo MCP para acceder a datos contextuales en toda su organización. Conecte sus aplicaciones a cualquier servidor MCP con interfaces estandarizadas."
+      },
+      "toolDiscovery": {
+        "title": "Descubrimiento de Herramientas",
+        "description": "Encuentre servidores MCP pre-construidos para sistemas empresariales populares como Google Drive, Slack, GitHub, Git, Postgres, Puppeteer y más. Impleméntelos instantáneamente en su organización."
+      }
+    },
+    "showcase": {
+      "title": "Impulsando la Integración de IA Empresarial",
+      "description": "Los primeros en adoptar ya han integrado MCP en sus sistemas, mientras que las empresas de herramientas de desarrollo están trabajando con MCP para mejorar sus plataformas, permitiendo a los agentes de IA recuperar mejor información relevante y producir resultados más funcionales con menos intentos.",
+      "quote": {
+        "text": "\"Las tecnologías abiertas como el Protocolo de Contexto de Modelo son los puentes que conectan la IA con aplicaciones del mundo real, asegurando que la innovación sea accesible, transparente y basada en la colaboración. Estamos emocionados de asociarnos en un protocolo y usarlo para construir sistemas agénticos, que eliminen la carga de lo mecánico para que las personas puedan centrarse en lo creativo.\"",
+        "author": "Dhanji R. Prasanna",
+        "position": "Director de Tecnología en Block"
+      },
+      "forOrganizations": {
+        "title": "Para Organizaciones",
+        "benefits": {
+          "deploy": "Implemente en local para mayor seguridad y cumplimiento",
+          "connect": "Conecte herramientas internas y datos a sistemas de IA",
+          "build": "Construya conectores personalizados para sistemas propietarios",
+          "maintain": "Mantenga el control sobre el acceso de IA a datos sensibles"
+        }
+      },
+      "forDevelopers": {
+        "title": "Para Equipos de Desarrollo",
+        "benefits": {
+          "enhance": "Mejore las herramientas de desarrollo con conciencia de contexto de IA",
+          "buildOnce": "Construya una vez, conéctese a múltiples clientes de IA",
+          "contribute": "Contribuya al ecosistema MCP de código abierto",
+          "create": "Cree conectores especializados para flujos de trabajo de desarrollo"
+        }
+      }
+    },
+    "enterprise": {
+      "title": "Implementación Lista para Empresas",
+      "description": "Implemente este marketplace en su propio entorno local para crear un hub interno seguro para herramientas y recursos MCP. Permita a los desarrolladores de su organización:",
+      "benefits": {
+        "share": "Compartir servidores MCP desarrollados internamente entre equipos",
+        "discover": "Descubrir e implementar conectores pre-construidos para sistemas empresariales",
+        "maintain": "Mantener requisitos de gobernanza y seguridad para integraciones de IA",
+        "foster": "Fomentar la colaboración entre propietarios de datos y desarrolladores de aplicaciones de IA"
+      },
+      "onPremise": {
+        "title": "Solución Local",
+        "description": "Totalmente implementable dentro de su infraestructura existente"
+      }
+    },
+    "community": {
+      "title": "Una Comunidad Abierta",
+      "description": "Estamos comprometidos a construir MCP como un proyecto y ecosistema colaborativo de código abierto. Ya sea que sea un desarrollador de herramientas de IA, una empresa que busca aprovechar datos existentes, o un adoptante temprano explorando la frontera, le invitamos a construir juntos el futuro de la IA consciente del contexto.",
+      "joinCommunity": "Unirse a la Comunidad",
+      "deploymentGuide": "Guía de Implementación"
+    }
+  },
+  "docs": {
+    "hero": {
+      "title": "Comenzando con MCP",
+      "subtitle": "Comience a construir y probar conectores MCP hoy con nuestra documentación y herramientas completas."
+    },
+    "availability": {
+      "title": "Disponibilidad",
+      "paragraph1": "El Protocolo de Contexto de Modelo (MCP) está diseñado para ser universalmente compatible con varios modelos de IA y aplicaciones cliente, no solo limitado a un único proveedor.",
+      "paragraph2": "Múltiples aplicaciones cliente admiten la conexión a servidores MCP, permitiéndole mejorar las capacidades de IA con acceso a sus datos personalizados, herramientas y sistemas. Puede usar MCP para conectar sus sistemas internos y conjuntos de datos a cualquier cliente de IA compatible.",
+      "paragraph3": "Los desarrolladores pueden construir y probar servidores MCP localmente, e implementar servidores MCP de producción que pueden servir a organizaciones enteras. El protocolo abierto permite la integración con varias plataformas y aplicaciones de IA."
+    },
+    "startUsing": {
+      "title": "Comenzar a Usar",
+      "subtitle": "Para usuarios finales y usuarios de aplicaciones de IA: Si está buscando mejorar su experiencia de IA con herramientas personalizadas y fuentes de datos, explore estos clientes compatibles con MCP.",
+      "claudeDesktop": {
+        "title": "Claude Desktop",
+        "description": "Conéctese a servidores MCP directamente desde su aplicación Claude Desktop. Admite servidores MCP locales y remotos.",
+        "learnMore": "Más información →"
+      },
+      "vsCodeExtension": {
+        "title": "Extensión VS Code",
+        "description": "Conéctese directamente a servidores MCP desde su entorno VS Code para una asistencia de codificación mejorada.",
+        "learnMore": "Más información →"
+      },
+      "jetbrainsPlugin": {
+        "title": "Plugin para JetBrains IDE",
+        "description": "Use servidores MCP dentro de IDEs de JetBrains como IntelliJ, PyCharm y otros para mejorar su experiencia de desarrollo.",
+        "learnMore": "Más información →"
+      }
+    },
+    "startBuilding": {
+      "title": "Comenzar a Construir",
+      "subtitle": "Para desarrolladores: Elija la ruta de desarrollo que coincida con sus objetivos - construya servidores MCP para extender las capacidades de IA o integre MCP en sus aplicaciones cliente.",
+      "serverDevelopers": {
+        "title": "Para Desarrolladores de Servidores",
+        "customServers": {
+          "title": "Construir Servidores Personalizados",
+          "description": "Cree servidores que conecten sus fuentes de datos, herramientas y APIs a modelos de IA compatibles con MCP.",
+          "learnMore": "Más información →"
+        },
+        "serverSDK": {
+          "title": "SDK de Servidor",
+          "description": "Use nuestro SDK para implementar la especificación MCP y construir servidores que se conecten a varias aplicaciones cliente.",
+          "learnMore": "Más información →"
+        },
+        "serverTemplates": {
+          "title": "Plantillas de Servidor",
+          "description": "Comience con plantillas pre-construidas para casos de uso comunes como recuperación de documentos, conectividad a bases de datos y uso de herramientas.",
+          "learnMore": "Más información →"
+        }
+      },
+      "clientDevelopers": {
+        "title": "Para Desarrolladores de Clientes",
+        "clientSDK": {
+          "title": "SDK de Cliente",
+          "description": "Implemente MCP en sus aplicaciones de IA para habilitar la conectividad con una amplia gama de servidores y herramientas MCP.",
+          "learnMore": "Más información →"
+        },
+        "integrationGuide": {
+          "title": "Guía de Integración",
+          "description": "Aprenda cómo integrar la conectividad MCP en sus aplicaciones, plataformas e interfaces impulsadas por IA.",
+          "learnMore": "Más información →"
+        },
+        "contribute": {
+          "title": "Contribuir",
+          "description": "Únase a nuestra comunidad de código abierto y contribuya a mejorar los clientes e implementaciones MCP.",
+          "learnMore": "Más información →"
+        }
+      }
+    },
+    "cta": {
+      "title": "¿Listo para Comenzar?",
+      "subtitle": "Únase a nuestra creciente comunidad de desarrolladores construyendo el futuro de la integración de IA con MCP.",
+      "readDocs": "Leer Documentación",
+      "viewOnGithub": "Ver en GitHub"
+    }
+  }
+}

@@ -65,8 +65,8 @@ export function Header() {
               <div className="px-4 py-3 space-y-2">
                 {/* Language switcher for mobile */}
                 <div className="border-b border-gray-100 pb-2 mb-2">
-                  <div className="text-gray-700 font-medium text-base py-2">{t('language.label')} / 语言</div>
-                  <div className="flex space-x-2 mt-1">
+                  <div className="text-gray-700 font-medium text-base py-2">{t('language.label')} / 语言 / 言語 / Idioma</div>
+                  <div className="flex flex-wrap space-x-2 mt-1">
                     <button
                       className={`px-3 py-1 rounded text-sm ${language === 'en' ? 'bg-indigo-100 text-indigo-700' : 'bg-gray-100 text-gray-700'}`}
                       onClick={() => toggleLanguage('en')}
@@ -74,14 +74,39 @@ export function Header() {
                       English
                     </button>
                     <button
-                      className={`px-3 py-1 rounded text-sm ${language === 'zh' ? 'bg-indigo-100 text-indigo-700' : 'bg-gray-100 text-gray-700'}`}
-                      onClick={() => toggleLanguage('zh')}
+                      className={`px-3 py-1 rounded text-sm ${language === 'zhHans' ? 'bg-indigo-100 text-indigo-700' : 'bg-gray-100 text-gray-700'}`}
+                      onClick={() => toggleLanguage('zhHans')}
                     >
-                      中文
+                      简体中文
+                    </button>
+                    <button
+                      className={`px-3 py-1 rounded text-sm ${language === 'zhHant' ? 'bg-indigo-100 text-indigo-700' : 'bg-gray-100 text-gray-700'}`}
+                      onClick={() => toggleLanguage('zhHant')}
+                    >
+                      繁體中文
+                    </button>
+                    <button
+                      className={`px-3 py-1 rounded text-sm ${language === 'ja' ? 'bg-indigo-100 text-indigo-700' : 'bg-gray-100 text-gray-700'}`}
+                      onClick={() => toggleLanguage('ja')}
+                    >
+                      日本語
+                    </button>
+                    <button
+                      className={`px-3 py-1 rounded text-sm ${language === 'es' ? 'bg-indigo-100 text-indigo-700' : 'bg-gray-100 text-gray-700'}`}
+                      onClick={() => toggleLanguage('es')}
+                    >
+                      Español
+                    </button>
+                    <button
+                      className={`px-3 py-1 rounded text-sm ${language === 'de' ? 'bg-indigo-100 text-indigo-700' : 'bg-gray-100 text-gray-700'}`}
+                      onClick={() => toggleLanguage('de')}
+                    >
+                      Deutsch
                     </button>
                   </div>
                 </div>
                 
+                {/* Mobile menu navigation items */}
                 <Link 
                   to="/" 
                   className="text-gray-700 hover:text-indigo-600 font-medium text-base flex items-center py-2 border-b border-gray-100"
@@ -173,6 +198,7 @@ export function Header() {
             
             {/* Desktop menu */}
             <nav className="hidden md:flex items-center space-x-8">
+              {/* Navigation links */}
               <Link to="/" className="text-gray-700 hover:text-indigo-600 font-medium flex items-center">
                 <svg 
                   xmlns="http://www.w3.org/2000/svg" 
@@ -225,7 +251,7 @@ export function Header() {
                 {t('nav.about')}
               </Link>
               <a
-                href="https://github.com/mcp-agents-ai/mcp-marketplace"
+                href="https://github.com/mcp-agents-ai/mcp-agents-hub"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-700 hover:text-indigo-600 font-medium flex items-center"
@@ -267,7 +293,11 @@ export function Header() {
                       d="M10.5 21l5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 016-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 01-3.827-5.802" 
                     />
                   </svg>
-                  {language === 'en' ? t('language.english') : t('language.chinese')}
+                  {language === 'en' ? 'English' : 
+                    language === 'zhHans' ? '简体中文' : 
+                    language === 'zhHant' ? '繁體中文' : 
+                    language === 'es' ? 'Español' : 
+                    language === 'de' ? 'Deutsch' : '日本語'}
                   <svg 
                     xmlns="http://www.w3.org/2000/svg" 
                     fill="none" 
@@ -285,19 +315,43 @@ export function Header() {
                 </button>
                 {/* Language dropdown menu */}
                 {isLangMenuOpen && (
-                  <div className="absolute right-0 mt-2 w-36 bg-white rounded-md shadow-lg z-20">
+                  <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg z-20">
                     <div className="py-1">
                       <button
                         className={`block w-full text-left px-4 py-2 text-sm ${language === 'en' ? 'bg-gray-100 text-indigo-600' : 'text-gray-700 hover:bg-gray-100'}`}
                         onClick={() => toggleLanguage('en')}
                       >
-                        {t('language.english')}
+                        English
                       </button>
                       <button
-                        className={`block w-full text-left px-4 py-2 text-sm ${language === 'zh' ? 'bg-gray-100 text-indigo-600' : 'text-gray-700 hover:bg-gray-100'}`}
-                        onClick={() => toggleLanguage('zh')}
+                        className={`block w-full text-left px-4 py-2 text-sm ${language === 'zhHans' ? 'bg-gray-100 text-indigo-600' : 'text-gray-700 hover:bg-gray-100'}`}
+                        onClick={() => toggleLanguage('zhHans')}
                       >
-                        {t('language.chinese')}
+                        简体中文 (Simplified Chinese)
+                      </button>
+                      <button
+                        className={`block w-full text-left px-4 py-2 text-sm ${language === 'zhHant' ? 'bg-gray-100 text-indigo-600' : 'text-gray-700 hover:bg-gray-100'}`}
+                        onClick={() => toggleLanguage('zhHant')}
+                      >
+                        繁體中文 (Traditional Chinese)
+                      </button>
+                      <button
+                        className={`block w-full text-left px-4 py-2 text-sm ${language === 'ja' ? 'bg-gray-100 text-indigo-600' : 'text-gray-700 hover:bg-gray-100'}`}
+                        onClick={() => toggleLanguage('ja')}
+                      >
+                        日本語 (Japanese)
+                      </button>
+                      <button
+                        className={`block w-full text-left px-4 py-2 text-sm ${language === 'es' ? 'bg-gray-100 text-indigo-600' : 'text-gray-700 hover:bg-gray-100'}`}
+                        onClick={() => toggleLanguage('es')}
+                      >
+                        Español
+                      </button>
+                      <button
+                        className={`block w-full text-left px-4 py-2 text-sm ${language === 'de' ? 'bg-gray-100 text-indigo-600' : 'text-gray-700 hover:bg-gray-100'}`}
+                        onClick={() => toggleLanguage('de')}
+                      >
+                        Deutsch
                       </button>
                     </div>
                   </div>

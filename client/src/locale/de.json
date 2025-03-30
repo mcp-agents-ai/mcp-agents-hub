@@ -1,0 +1,250 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "docs": "Dokumentation",
+    "about": "Über uns",
+    "github": "GitHub"
+  },
+  "language": {
+    "english": "English",
+    "chinese": "簡體中文 (CN)",
+    "traditionalchinese": "繁體中文 (TC)",
+    "japanese": "日本語 (JP)",
+    "spanish": "Español",
+    "label": "Sprache"
+  },
+  "home": {
+    "title": "MCP Agents Hub",
+    "tagline": "Der universelle Standard für KI-Integration",
+    "subtitle": "Stellen Sie sich MCP als USB-C für KI-Anwendungen vor - ein standardisierter Weg, um KI-Modelle mit beliebigen Datenquellen oder Tools zu verbinden.",
+    "feature1": {
+      "title": "Einfache Verbindung",
+      "description": "Verbinden Sie sich mit nur wenigen Klicks mit MCP-Servern"
+    },
+    "feature2": {
+      "title": "Hohe Leistung",
+      "description": "Erleben Sie schnelle und zuverlässige KI-Modellausführung"
+    },
+    "feature3": {
+      "title": "Offener Standard",
+      "description": "Basierend auf dem offenen Model Context Protocol-Standard"
+    },
+    "discover": {
+      "title": "MCP-Server entdecken",
+      "description": "Durchsuchen und verbinden Sie sich mit einem wachsenden Ökosystem von MCP-Servern"
+    },
+    "search": {
+      "placeholder": "Suchen Sie nach MCP-Servern nach Name, Autor oder Tags...",
+      "button": "Suchen"
+    },
+    "serverCount": "Verfügbare MCP-Server",
+    "recommendedServers": "Empfohlene Server",
+    "otherServers": "Andere Server",
+    "loadMore": "Mehr laden",
+    "of": "von"
+  },
+  "server": {
+    "by": "von",
+    "recommended": "Empfohlen",
+    "viewOnGithub": "Auf GitHub ansehen"
+  },
+  "details": {
+    "loading": "Serverdetails werden geladen...",
+    "fetchError": "Fehler beim Abrufen der Serverdetails",
+    "errorLoading": "Fehler beim Laden der Serverdaten",
+    "serverNotFound": "Server nicht gefunden",
+    "backToServers": "Zurück zu den Servern",
+    "description": "Beschreibung",
+    "tags": "Tags",
+    "serverInfo": "Server-Informationen",
+    "category": "Kategorie",
+    "requiresApiKey": "API-Schlüssel erforderlich",
+    "createdAt": "Erstellt am",
+    "updatedAt": "Aktualisiert am",
+    "notSpecified": "Nicht angegeben",
+    "viewOnGithub": "Auf GitHub ansehen"
+  },
+  "common": {
+    "yes": "Ja",
+    "no": "Nein"
+  },
+  "footer": {
+    "copyright": "© 2025 MCP Marketplace. Alle Rechte vorbehalten."
+  },
+  "about": {
+    "hero": {
+      "title": "MCP Agents Hub",
+      "subtitle": "Das Open-Source-Ökosystem zum Erstellen, Entdecken und Bereitstellen von Model Context Protocol-Servern und -Clients für Unternehmensumgebungen."
+    },
+    "whatIsMcp": {
+      "title": "Was ist das Model Context Protocol?",
+      "paragraph1": "Das Model Context Protocol (MCP) ist ein offener Standard, der Entwicklern ermöglicht, sichere, bidirektionale Verbindungen zwischen ihren Datenquellen und KI-gestützten Tools zu erstellen. Die Architektur ist unkompliziert: Entwickler können entweder ihre Daten über MCP-Server bereitstellen oder KI-Anwendungen (MCP-Clients) erstellen, die sich mit diesen Servern verbinden.",
+      "paragraph2": "Mit MCP können KI-Systeme den Kontext beibehalten, wenn sie zwischen verschiedenen Tools und Datensätzen wechseln, und ersetzen die heutigen fragmentierten Integrationen durch eine nachhaltigere Architektur. Anstatt benutzerdefinierte Konnektoren für jede Datenquelle oder jedes KI-Modell zu erstellen, können Entwickler jetzt gegen ein Standardprotokoll entwickeln.",
+      "components": {
+        "title": "Schlüsselkomponenten von MCP",
+        "specification": {
+          "title": "MCP-Spezifikation",
+          "description": "Die offene Standardprotokolldefinition, die die Interoperabilität zwischen Servern und Clients ermöglicht"
+        },
+        "servers": {
+          "title": "MCP-Server",
+          "description": "Maßgeschneiderte Konnektoren, die Datenquellen, Tools und APIs für KI-Anwendungen bereitstellen"
+        },
+        "clients": {
+          "title": "MCP-Clients",
+          "description": "KI-gestützte Anwendungen, die sich mit MCP-Servern verbinden, um auf kontextbezogene Daten und Funktionen zuzugreifen"
+        }
+      },
+      "whyMarketplace": {
+        "title": "Warum MCP Marketplace?",
+        "description": "Mit der Erweiterung des MCP-Ökosystems benötigen Organisationen einen zentralen Hub zur Verwaltung, Entdeckung und gemeinsamen Nutzung von MCP-Ressourcen. Dieser Marktplatz dient als Hub und ermöglicht Unternehmen:",
+        "benefits": {
+          "discover": "Vorgefertigte MCP-Server für gängige Unternehmenssysteme zu entdecken",
+          "share": "Benutzerdefinierte MCP-Server, die innerhalb ihrer Organisation entwickelt wurden, zu teilen",
+          "learn": "Bewährte Methoden zum Erstellen effektiver MCP-Konnektoren zu erlernen",
+          "deploy": "Den gesamten Marktplatz vor Ort für Sicherheit und Governance bereitzustellen"
+        }
+      }
+    },
+    "features": {
+      "title": "Ihr Enterprise MCP Hub",
+      "description": "Dieser Open-Source-Marktplatz ermöglicht es Organisationen, ihren eigenen lokalen MCP-Hub bereitzustellen und eine zentrale Plattform für die Entdeckung, gemeinsame Nutzung und Verwaltung von MCP-Servern und -Clients in ihrer Unternehmensumgebung zu schaffen.",
+      "serverBuilding": {
+        "title": "Server-Entwicklung",
+        "description": "Lernen Sie, benutzerdefinierte MCP-Server zu erstellen, die Unternehmensdatenquellen sicher und effizient mit KI-Modellen verbinden. Unser Marktplatz bietet Vorlagen, Beispiele und bewährte Methoden, um die Serverentwicklung zu beschleunigen."
+      },
+      "clientDevelopment": {
+        "title": "Client-Entwicklung",
+        "description": "Erstellen Sie KI-Anwendungen, die das MCP-Protokoll nutzen, um auf kontextbezogene Daten in Ihrer Organisation zuzugreifen. Verbinden Sie Ihre Apps mit standardisierten Schnittstellen mit jedem MCP-Server."
+      },
+      "toolDiscovery": {
+        "title": "Tool-Entdeckung",
+        "description": "Finden Sie vorgefertigte MCP-Server für beliebte Unternehmenssysteme wie Google Drive, Slack, GitHub, Git, Postgres, Puppeteer und mehr. Stellen Sie sie sofort in Ihrer Organisation bereit."
+      }
+    },
+    "showcase": {
+      "title": "Leistungsstarke KI-Integration für Unternehmen",
+      "description": "Frühe Anwender haben MCP bereits in ihre Systeme integriert, während Entwicklungstool-Unternehmen mit MCP arbeiten, um ihre Plattformen zu verbessern – so können KI-Agenten relevante Informationen besser abrufen und funktionalere Ergebnisse mit weniger Versuchen erzielen.",
+      "quote": {
+        "text": "\"Offene Technologien wie das Model Context Protocol sind die Brücken, die KI mit realen Anwendungen verbinden und sicherstellen, dass Innovation zugänglich, transparent und in Zusammenarbeit verwurzelt ist. Wir freuen uns, an einem Protokoll mitzuwirken und es zum Aufbau agentischer Systeme zu nutzen, die die Belastung durch mechanische Aufgaben reduzieren, damit sich Menschen auf das Kreative konzentrieren können.\"",
+        "author": "Dhanji R. Prasanna",
+        "position": "Chief Technology Officer bei Block"
+      },
+      "forOrganizations": {
+        "title": "Für Organisationen",
+        "benefits": {
+          "deploy": "Lokale Bereitstellung für erhöhte Sicherheit und Compliance",
+          "connect": "Interne Tools und Daten mit KI-Systemen verbinden",
+          "build": "Maßgeschneiderte Konnektoren für proprietäre Systeme erstellen",
+          "maintain": "Kontrolle über KI-Zugriff auf sensible Daten behalten"
+        }
+      },
+      "forDevelopers": {
+        "title": "Für Entwicklerteams",
+        "benefits": {
+          "enhance": "Entwicklungstools mit KI-Kontextbewusstsein verbessern",
+          "buildOnce": "Einmal erstellen, mit mehreren KI-Clients verbinden",
+          "contribute": "Zum Open-Source-MCP-Ökosystem beitragen",
+          "create": "Spezialisierte Konnektoren für Entwicklungsworkflows erstellen"
+        }
+      }
+    },
+    "enterprise": {
+      "title": "Unternehmenstaugliche Bereitstellung",
+      "description": "Stellen Sie diesen Marktplatz in Ihrer eigenen lokalen Umgebung bereit, um einen sicheren, internen Hub für MCP-Tools und -Ressourcen zu schaffen. Ermöglichen Sie den Entwicklern Ihrer Organisation:",
+      "benefits": {
+        "share": "Intern entwickelte MCP-Server teamübergreifend zu teilen",
+        "discover": "Vorgefertigte Konnektoren für Unternehmenssysteme zu entdecken und bereitzustellen",
+        "maintain": "Governance- und Sicherheitsanforderungen für KI-Integrationen einzuhalten",
+        "foster": "Die Zusammenarbeit zwischen Dateneignern und KI-Anwendungsentwicklern zu fördern"
+      },
+      "onPremise": {
+        "title": "On-Premise-Lösung",
+        "description": "Vollständig innerhalb Ihrer bestehenden Infrastruktur bereitstellbar"
+      }
+    },
+    "community": {
+      "title": "Eine offene Gemeinschaft",
+      "description": "Wir sind bestrebt, MCP als kollaboratives Open-Source-Projekt und Ökosystem aufzubauen. Ob Sie ein KI-Tool-Entwickler sind, ein Unternehmen, das bestehende Daten nutzen möchte, oder ein früher Anwender, der die Grenzen erforscht – wir laden Sie ein, gemeinsam die Zukunft der kontextbewussten KI zu gestalten.",
+      "joinCommunity": "Der Community beitreten",
+      "deploymentGuide": "Bereitstellungsleitfaden"
+    }
+  },
+  "docs": {
+    "hero": {
+      "title": "Erste Schritte mit MCP",
+      "subtitle": "Beginnen Sie noch heute mit der Erstellung und dem Testen von MCP-Konnektoren mit unserer umfassenden Dokumentation und unseren Tools."
+    },
+    "availability": {
+      "title": "Verfügbarkeit",
+      "paragraph1": "Das Model Context Protocol (MCP) ist so konzipiert, dass es universell mit verschiedenen KI-Modellen und Client-Anwendungen kompatibel ist und nicht auf einen einzelnen Anbieter beschränkt ist.",
+      "paragraph2": "Mehrere Client-Anwendungen unterstützen die Verbindung zu MCP-Servern, sodass Sie KI-Funktionen mit Zugriff auf Ihre benutzerdefinierten Daten, Tools und Systeme erweitern können. Sie können MCP verwenden, um Ihre internen Systeme und Datensätze mit jedem kompatiblen KI-Client zu verbinden.",
+      "paragraph3": "Entwickler können MCP-Server lokal erstellen und testen und Produktions-MCP-Server bereitstellen, die ganze Organisationen bedienen können. Das offene Protokoll ermöglicht die Integration mit verschiedenen KI-Plattformen und -Anwendungen."
+    },
+    "startUsing": {
+      "title": "Erste Schritte",
+      "subtitle": "Für Endbenutzer und KI-Anwendungsbenutzer: Wenn Sie Ihre KI-Erfahrung mit benutzerdefinierten Tools und Datenquellen verbessern möchten, erkunden Sie diese MCP-kompatiblen Clients.",
+      "claudeDesktop": {
+        "title": "Claude Desktop",
+        "description": "Verbinden Sie sich direkt von Ihrer Claude Desktop-App aus mit MCP-Servern. Unterstützt sowohl lokale als auch Remote-MCP-Server.",
+        "learnMore": "Mehr erfahren →"
+      },
+      "vsCodeExtension": {
+        "title": "VS Code-Erweiterung",
+        "description": "Verbinden Sie sich direkt aus Ihrer VS Code-Umgebung mit MCP-Servern für verbesserte Codierungsunterstützung.",
+        "learnMore": "Mehr erfahren →"
+      },
+      "jetbrainsPlugin": {
+        "title": "JetBrains IDE-Plugin",
+        "description": "Verwenden Sie MCP-Server in JetBrains-IDEs wie IntelliJ, PyCharm und anderen, um Ihre Entwicklungserfahrung zu verbessern.",
+        "learnMore": "Mehr erfahren →"
+      }
+    },
+    "startBuilding": {
+      "title": "Mit dem Aufbau beginnen",
+      "subtitle": "Für Entwickler: Wählen Sie den Entwicklungspfad, der Ihren Zielen entspricht - erstellen Sie MCP-Server, um KI-Funktionen zu erweitern, oder integrieren Sie MCP in Ihre Client-Anwendungen.",
+      "serverDevelopers": {
+        "title": "Für Server-Entwickler",
+        "customServers": {
+          "title": "Benutzerdefinierte Server erstellen",
+          "description": "Erstellen Sie Server, die Ihre Datenquellen, Tools und APIs mit MCP-kompatiblen KI-Modellen verbinden.",
+          "learnMore": "Mehr erfahren →"
+        },
+        "serverSDK": {
+          "title": "Server-SDK",
+          "description": "Verwenden Sie unser SDK, um die MCP-Spezifikation zu implementieren und Server zu erstellen, die sich mit verschiedenen Client-Anwendungen verbinden.",
+          "learnMore": "Mehr erfahren →"
+        },
+        "serverTemplates": {
+          "title": "Server-Vorlagen",
+          "description": "Beginnen Sie mit vorgefertigten Vorlagen für häufige Anwendungsfälle wie Dokumentenabruf, Datenbankverbindung und Tool-Nutzung.",
+          "learnMore": "Mehr erfahren →"
+        }
+      },
+      "clientDevelopers": {
+        "title": "Für Client-Entwickler",
+        "clientSDK": {
+          "title": "Client-SDK",
+          "description": "Implementieren Sie MCP in Ihren KI-Anwendungen, um die Konnektivität mit einer Vielzahl von MCP-Servern und -Tools zu ermöglichen.",
+          "learnMore": "Mehr erfahren →"
+        },
+        "integrationGuide": {
+          "title": "Integrationshandbuch",
+          "description": "Erfahren Sie, wie Sie MCP-Konnektivität in Ihre KI-gestützten Anwendungen, Plattformen und Schnittstellen integrieren.",
+          "learnMore": "Mehr erfahren →"
+        },
+        "contribute": {
+          "title": "Mitwirken",
+          "description": "Schließen Sie sich unserer Open-Source-Community an und tragen Sie zur Verbesserung von MCP-Clients und -Implementierungen bei.",
+          "learnMore": "Mehr erfahren →"
+        }
+      }
+    },
+    "cta": {
+      "title": "Bereit, loszulegen?",
+      "subtitle": "Treten Sie unserer wachsenden Gemeinschaft von Entwicklern bei, die mit MCP die Zukunft der KI-Integration aufbauen.",
+      "readDocs": "Dokumentation lesen",
+      "viewOnGithub": "Auf GitHub ansehen"
+    }
+  }
+}

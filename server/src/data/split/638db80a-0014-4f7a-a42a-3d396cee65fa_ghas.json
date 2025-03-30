@@ -1,0 +1,23 @@
+{
+    "mcpId": "https://github.com/rajbos/ghas-mcp-server.git",
+    "githubUrl": "https://github.com/rajbos/ghas-mcp-server.git",
+    "name": "GitHub Advanced Security",
+    "author": "Rob Bos",
+    "description": "Integrates with GitHub Advanced Security to provide the context from the security alerts",
+    "codiconIcon": "github",
+    "logoUrl": "",
+    "category": "security",
+    "tags": [
+      "github",
+      "security",
+      "ecosystem",
+      "ghas"
+    ],
+    "requiresApiKey": true,
+    "isRecommended": false,
+    "githubStars": 0,
+    "downloadCount": 0,
+    "createdAt": "2025-03-28T08:29:29.634309+00:00",
+    "updatedAt": "2025-03-28T08:29:29.634309+00:00",
+    "hubId": "638db80a-0014-4f7a-a42a-3d396cee65fa"
+  }
