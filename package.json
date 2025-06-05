@@ -8,6 +8,7 @@
     "server"
   ],
   "scripts": {
+    "preinstall": "echo 'Make sure to run \"nvm use\" before installing dependencies'",
     "dev": "concurrently \"npm run server:dev\" \"npm run client:dev\"",
     "client:dev": "cd client && vite",
     "server:dev": "cd server && tsx watch src/server.ts",
