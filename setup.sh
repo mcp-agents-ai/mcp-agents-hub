@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 # MCP Agents Hub - Environment Setup Script
 # This script ensures the correct Node.js version is being used via nvm
@@ -37,7 +38,7 @@ echo "✅ npm version: $(npm --version)"
 
 # Install dependencies
 echo "📦 Installing dependencies..."
-npm install
+npm ci
 
 echo "🎉 Setup complete! You can now run:"
 echo "   npm run dev    (start development server)"
