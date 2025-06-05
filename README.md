@@ -119,9 +119,42 @@ graph TD
 - Lucide React (for icons)
 
 ## Installation
+
+### Prerequisites
+This project uses Node Version Manager (nvm) to manage Node.js versions. Make sure you have nvm installed globally.
+
+#### Installing nvm (if not already installed)
+```bash
+# Install nvm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+
+# Reload your shell configuration
+source ~/.bashrc
+
+# Verify nvm installation
+nvm --version
+```
+
+### Project Setup
 1. Clone the repository
-2. Run `npm install` to install dependencies
+2. **Quick Setup (Recommended)**: Run the setup script which handles nvm and dependencies:
+   ```bash
+   ./setup.sh
+   ```
+   
+   **OR Manual Setup**:
+   - Use the correct Node.js version specified in `.nvmrc`:
+     ```bash
+     nvm use
+     ```
+     If the Node.js version isn't installed, nvm will prompt you to install it:
+     ```bash
+     nvm install
+     ```
+   - Run `npm install` to install dependencies
 3. Start the development server with `npm run dev`
+
+**Note**: The project includes a `.nvmrc` file that specifies the required Node.js version (22.16.0). Always run `nvm use` when switching to this project to ensure you're using the correct Node.js version.
 
 ## Available Scripts
 - `dev`: Start development server
