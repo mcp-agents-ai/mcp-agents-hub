@@ -52,11 +52,11 @@ export function ServerCard({ server }: ServerCardProps) {
           <div className="flex items-center space-x-4">
             <div className="flex items-center text-gray-600">
               <Star className="h-4 w-4 text-yellow-400 mr-1" />
-              <span>{server.githubStars.toLocaleString()}</span>
+              <span>{(server.githubStars || 0).toLocaleString()}</span>
             </div>
             <div className="flex items-center text-gray-600">
               <Download className="h-4 w-4 mr-1" />
-              <span>{server.downloadCount.toLocaleString()}</span>
+              <span>{(server.downloadCount || 0).toLocaleString()}</span>
             </div>
           </div>
           

@@ -27,6 +27,10 @@ export default defineConfig({
       '/v1/hub': {
         target: BACKEND_API_URL,
         changeOrigin: true
+      },
+      '/v1/host': {
+        target: BACKEND_API_URL,
+        changeOrigin: true
       }
     }
   },
