@@ -3,6 +3,7 @@ import { useParams, Link, useLocation } from 'react-router-dom';
 import { MCPServer } from '../types';
 import { Database, ChevronLeft, ExternalLink, Star, Download, BrainCircuit, FileSearch, Loader } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
+import { MCPHostComponent } from '../components/MCPHostComponent';
 
 export function ServerDetails() {
   const { hubId } = useParams<{ hubId: string }>();
@@ -175,11 +176,11 @@ export function ServerDetails() {
                 <div className="flex items-center justify-center md:justify-start mt-2 space-x-4">
                   <div className="flex items-center text-gray-600">
                     <Star className="h-5 w-5 text-yellow-400 mr-1" />
-                    <span>{server.githubStars.toLocaleString()}</span>
+                    <span>{(server.githubStars || 0).toLocaleString()}</span>
                   </div>
                   <div className="flex items-center text-gray-600">
                     <Download className="h-5 w-5 mr-1" />
-                    <span>{server.downloadCount.toLocaleString()}</span>
+                    <span>{(server.downloadCount || 0).toLocaleString()}</span>
                   </div>
                 </div>
               </div>
@@ -225,6 +226,9 @@ export function ServerDetails() {
             <h2 className="text-2xl font-bold text-gray-900 mb-4">{t('details.description')}</h2>
             <p className="text-gray-700 leading-relaxed">{server.description}</p>
           </div>
+
+          {/* MCP Host Component */}
+          <MCPHostComponent server={server} className="mb-8" />
 
           {server.Installation_instructions && (
             <div className="mb-8">
